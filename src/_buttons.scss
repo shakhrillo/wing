@@ -4,26 +4,40 @@
 // Base styles
 .btn {
   font-family: $font-0;
-  padding: $buttonPadding;
-  color: $buttonColor;
+  font-size: $fs-4;
+  padding: $p-2 $p-4;
+  background-color: $bg-blue-100;
+  color: $black-900;
+  border: 0;
+  border-radius: $rounded;
+  transition: $duration;
+  cursor: pointer;
 
-  &.sm {
-    font-size: $font-size-0;
+  &.btn-sm {
+    font-size: $fs-2;
+  }
+  &.btn-md {
+    font-size: $fs-4;
+  }
+  &.btn-lg {
+    font-size: $fs-6;
   }
 
   &:hover {
-    color: $buttonColor;
+    background-color: $blue-500;
   }
 
-  &:active {
-    color: $buttonColor;
-  }
+  // &:active {
+  //   color: $buttonColor;
+  // }
 
   &:focus {
-    color: $buttonColor;
+    background-color: $blue-500;
+    box-shadow: 0 0 0 3px $blue-100;
+    color: $white;
   }
 
-  &:disabled {
-    color: $buttonColor;
-  }
+  // &:disabled {
+  //   color: $buttonColor;
+  // }
 }
