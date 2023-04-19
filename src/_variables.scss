@@ -96,10 +96,6 @@ $bg-green-100: #b1fda7;
 }
 
 // Display
-.d-0 {
-}
-.d-1 {
-}
 
 // Position
 .p-0 {
@@ -136,9 +132,17 @@ $bg-green-100: #b1fda7;
 }
 
 // Width
-.w-0 {
+.w-25 {
+    width: 25%;
 }
-.w-1 {
+.w-50 {
+    width: 50%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-100 {
+    width: 100%;
 }
 
 // Height
