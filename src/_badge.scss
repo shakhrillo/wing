@@ -1,0 +1,15 @@
+@import "variables";
+
+// Badge
+
+.badge {
+  display: $d-inline;
+  color: $white;
+  background-color: $black-900;
+  padding: $p-2;
+  border-radius: $border-1;
+
+  // &.sm {
+  //   // font-size: $font-size-0;
+  // }
+}
