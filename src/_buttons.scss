@@ -1,42 +1,41 @@
+@import "variables";
+
 // Button
 // --------------------------------------------------
-
 // Base styles
 .btn {
   font-family: $font-0;
   font-size: $fs-4;
   padding: $p-2 $p-4;
-  background-color: $bg-blue-100;
-  color: $black-900;
   border: 0;
   border-radius: $rounded;
   transition: $duration;
   cursor: pointer;
 
-  &.btn-sm {
+  &-blue {
+    background-color: $bg-blue-100;
+    color: $bg-white;
+  }
+  &-sm {
     font-size: $fs-2;
   }
-  &.btn-md {
+  &-md {
     font-size: $fs-4;
   }
-  &.btn-lg {
+  &-lg {
     font-size: $fs-6;
   }
-
   &:hover {
     background-color: $blue-500;
   }
-
   // &:active {
   //   color: $buttonColor;
   // }
-
   &:focus {
     background-color: $blue-500;
     box-shadow: 0 0 0 3px $blue-100;
     color: $white;
   }
-
   &:disabled {
     background-color: $gray-900;
   }
