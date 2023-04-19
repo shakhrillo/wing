@@ -1,44 +1,54 @@
 // Colors
-$color-0: #000;
-$color-1: #fff;
-$color-2: #f00;
+$white: #ffffff;
+$black-900: #000000;
+$black-500: #353232;
+$black-100: #585555;
+$red-900: #fc0101;
+$red-500: #f74444;
+$red-100: #f57272;
+$blue-900: #0387d3;
+$blue-500: #099df3;
+$blue-100: #9ad9fd;
+$gray-900: #a1a1a1;
+$gray-500: #cacaca;
+$gray-100: #f0f0f0;
+$yellow-900: #e7eb00;
+$yellow-500: #f3f577;
+$yellow-100: #f5f7a9;
+$green-900: #1cf300;
+$green-500: #7af769;
+$green-100: #b1fda7;
 
 // Font
-$font-0: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-0: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 // Padding
-$padding-0: 0;
-$padding-1: 1rem;
-$padding-2: 2rem;
-// .pd-0{}
-// .pd-1{}
-// .pd-2{}
-// .pd-3{}
-// .pd-4{}
+$p-0: 0;
+$p-1: 4px;
+$p-2: 8px;
+$p-3: 12px;
+$p-4: 16px;
+$p-5: 20px;
+$p-6: 24px;
 
 // Margin
-$margin-0: 0;
+$m-0: 0;
 // .mg-0{}
 // .mg-1{}
 // .mg-2{}
 
 // Font size
-.fs-0 {
-}
-.fs-1 {
-}
+$fs-2: 8px;
+$fs-3: 12px;
+$fs-4: 16px;
+$fs-5: 20px;
+$fs-6: 24px;
 
 // Font weight
-.fw-0 {
-}
-.fw-1 {
-}
 
 // Border radius
-.br-0 {
-}
-.br-1 {
-}
+$rounded: 4px;
+$rounded-circle: 50%;
 
 // Border width
 .bw-0 {
@@ -59,10 +69,25 @@ $margin-0: 0;
 }
 
 // Background color
-.bg-0 {
-}
-.bg-1 {
-}
+$bg-white: #ffffff;
+$bg-black-900: #000000;
+$bg-black-500: #353232;
+$bg-black-100: #585555;
+$bg-red-900: #fc0101;
+$bg-red-500: #f74444;
+$bg-red-100: #f57272;
+$bg-blue-900: #0387d3;
+$bg-blue-500: #099df3;
+$bg-blue-100: #6ac7fd;
+$bg-gray-900: #a1a1a1;
+$bg-gray-500: #cacaca;
+$bg-gray-100: #f0f0f0;
+$bg-yellow-900: #e7eb00;
+$bg-yellow-500: #f3f577;
+$bg-yellow-100: #f5f7a9;
+$bg-green-900: #1cf300;
+$bg-green-500: #7af769;
+$bg-green-100: #b1fda7;
 
 // Text color
 .tc-0 {
@@ -159,8 +184,7 @@ $margin-0: 0;
 // List-style
 // List-style-type
 
+$duration: all 0.3s ease;
 // Cursor
 
 // Button
-$buttonPadding: $padding-2;
-$buttonColor: $color-1;
