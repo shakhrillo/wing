@@ -1,0 +1,29 @@
+// Button
+// --------------------------------------------------
+
+// Base styles
+.btn {
+  font-family: $font-0;
+  padding: $buttonPadding;
+  color: $buttonColor;
+
+  &.sm {
+    font-size: $font-size-0;
+  }
+
+  &:hover {
+    color: $buttonColor;
+  }
+
+  &:active {
+    color: $buttonColor;
+  }
+
+  &:focus {
+    color: $buttonColor;
+  }
+
+  &:disabled {
+    color: $buttonColor;
+  }
+}

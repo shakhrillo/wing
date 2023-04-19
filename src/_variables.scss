@@ -1,301 +1,166 @@
-$gray-50: #f2f2f3;
-$gray-100: #e5e5e6;
-$gray-200: #cacace;
-$gray-300: #b0b0b5;
-$gray-400: #95959d;
-$gray-500: #7b7b84;
-$gray-600: #62626a;
-$gray-700: #4a4a4f;
-$gray-800: #313135;
-$gray-900: #19191a;
+// Colors
+$color-0: #000;
+$color-1: #fff;
+$color-2: #f00;
 
-$indigo-50: #ecebf9;
-$indigo-100: #d9d7f4;
-$indigo-200: #b4b0e8;
-$indigo-300: #8e88dd;
-$indigo-400: #6861d1;
-$indigo-500: #4339c6;
-$indigo-600: #352e9e;
-$indigo-700: #282277;
-$indigo-800: #1b174f;
-$indigo-900: #0d0b28;
+// Font
+$font-0: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
-$violet-50: #f3ebf9;
-$violet-100: #e7d7f4;
-$violet-200: #d0b0e8;
-$violet-300: #b888dd;
-$violet-400: #a161d1;
-$violet-500: #8939c6;
-$violet-600: #6e2e9e;
-$violet-700: #522277;
-$violet-800: #37174f;
-$violet-900: #1b0b28;
+// Padding
+$padding-0: 0;
+$padding-1: 1rem;
+$padding-2: 2rem;
+// .pd-0{}
+// .pd-1{}
+// .pd-2{}
+// .pd-3{}
+// .pd-4{}
 
-$purple-50: #f9ebf8;
-$purple-100: #f4d7f2;
-$purple-200: #e8b0e4;
-$purple-300: #dd88d7;
-$purple-400: #d161ca;
-$purple-500: #c639bc;
-$purple-600: #9e2e97;
-$purple-700: #772271;
-$purple-800: #4f174b;
-$purple-900: #280b26;
+// Margin
+$margin-0: 0;
+// .mg-0{}
+// .mg-1{}
+// .mg-2{}
 
-$pink-50: #f9ebf1;
-$pink-100: #f4d7e4;
-$pink-200: #e8b0c8;
-$pink-300: #dd88ad;
-$pink-400: #d16191;
-$pink-500: #c63976;
-$pink-600: #9e2e5e;
-$pink-700: #772247;
-$pink-800: #4f172f;
-$pink-900: #280b18;
+// Font size
+.fs-0 {
+}
+.fs-1 {
+}
 
-$red-50: #f9eceb;
-$red-100: #f4d9d7;
-$red-200: #e8b4b0;
-$red-300: #dd8e88;
-$red-400: #d16861;
-$red-500: #c64339;
-$red-600: #9e352e;
-$red-700: #772822;
-$red-800: #4f1b17;
-$red-900: #280d0b;
+// Font weight
+.fw-0 {
+}
+.fw-1 {
+}
 
-$orange-50: #f9f3eb;
-$orange-100: #f4e7d7;
-$orange-200: #e8d0b0;
-$orange-300: #ddb888;
-$orange-400: #d1a161;
-$orange-500: #c68939;
-$orange-600: #9e6e2e;
-$orange-700: #775222;
-$orange-800: #4f3717;
-$orange-900: #281b0b;
+// Border radius
+.br-0 {
+}
+.br-1 {
+}
 
-$yellow-50: #f8f9eb;
-$yellow-100: #f2f4d7;
-$yellow-200: #e4e8b0;
-$yellow-300: #d7dd88;
-$yellow-400: #cad161;
-$yellow-500: #bcc639;
-$yellow-600: #979e2e;
-$yellow-700: #717722;
-$yellow-800: #4b4f17;
-$yellow-900: #26280b;
+// Border width
+.bw-0 {
+}
+.bw-1 {
+}
 
-$lime-50: #f1f9eb;
-$lime-100: #e4f4d7;
-$lime-200: #c8e8b0;
-$lime-300: #addd88;
-$lime-400: #91d161;
-$lime-500: #76c639;
-$lime-600: #5e9e2e;
-$lime-700: #477722;
-$lime-800: #2f4f17;
-$lime-900: #18280b;
+// Border color
+.bc-0 {
+}
+.bc-1 {
+}
 
-$green-50: #ebf9ec;
-$green-100: #d7f4d9;
-$green-200: #b0e8b4;
-$green-300: #88dd8e;
-$green-400: #61d168;
-$green-500: #39c643;
-$green-600: #2e9e35;
-$green-700: #227728;
-$green-800: #174f1b;
-$green-900: #0b280d;
+// Border style
+.bs-0 {
+}
+.bs-1 {
+}
 
-$teal-50: #ebf9f3;
-$teal-100: #d7f4e7;
-$teal-200: #b0e8d0;
-$teal-300: #88ddb8;
-$teal-400: #61d1a1;
-$teal-500: #39c689;
-$teal-600: #2e9e6e;
-$teal-700: #227752;
-$teal-800: #174f37;
-$teal-900: #0b281b;
+// Background color
+.bg-0 {
+}
+.bg-1 {
+}
 
-$cyan-50: #ebf8f9;
-$cyan-100: #d7f2f4;
-$cyan-200: #b0e4e8;
-$cyan-300: #88d7dd;
-$cyan-400: #61cad1;
-$cyan-500: #39bcc6;
-$cyan-600: #2e979e;
-$cyan-700: #227177;
-$cyan-800: #174b4f;
-$cyan-900: #0b2628;
+// Text color
+.tc-0 {
+}
+.tc-1 {
+}
 
-$blue-50: #ebf1f9;
-$blue-100: #d7e4f4;
-$blue-200: #b0c8e8;
-$blue-300: #88addd;
-$blue-400: #6191d1;
-$blue-500: #3976c6;
-$blue-600: #2e5e9e;
-$blue-700: #224777;
-$blue-800: #172f4f;
-$blue-900: #0b1828;
+// Display
+.d-0 {
+}
+.d-1 {
+}
 
-$gray: $gray-500;
-$indigo: $indigo-500;
-$violet: $violet-500;
-$purple: $purple-500;
-$pink: $pink-500;
-$red: $red-500;
-$orange: $orange-500;
-$yellow: $yellow-500;
-$lime: $lime-500;
-$green: $green-500;
-$teal: $teal-500;
-$cyan: $cyan-500;
-$blue: $blue-500;
+// Position
+.p-0 {
+}
+.p-1 {
+}
 
-$theme-colors: (
-  'gray-50': $gray-50,
-  'gray-100': $gray-100,
-  'gray-200': $gray-200,
-  'gray-300': $gray-300,
-  'gray-400': $gray-400,
-  'gray-500': $gray-500,
-  'gray-600': $gray-600,
-  'gray-700': $gray-700,
-  'gray-800': $gray-800,
-  'gray-900': $gray-900,
+// Float
+.f-0 {
+}
+.f-1 {
+}
 
-  'indigo-50': $indigo-50,
-  'indigo-100': $indigo-100,
-  'indigo-200': $indigo-200,
-  'indigo-300': $indigo-300,
-  'indigo-400': $indigo-400,
-  'indigo-500': $indigo-500,
-  'indigo-600': $indigo-600,
-  'indigo-700': $indigo-700,
-  'indigo-800': $indigo-800,
-  'indigo-900': $indigo-900,
+// Clear
+.c-0 {
+}
 
-  'violet-50': $violet-50,
-  'violet-100': $violet-100,
-  'violet-200': $violet-200,
-  'violet-300': $violet-300,
-  'violet-400': $violet-400,
-  'violet-500': $violet-500,
-  'violet-600': $violet-600,
-  'violet-700': $violet-700,
-  'violet-800': $violet-800,
-  'violet-900': $violet-900,
+// Overflow
+.o-0 {
+}
+.o-1 {
+}
 
-  'purple-50': $purple-50,
-  'purple-100': $purple-100,
-  'purple-200': $purple-200,
-  'purple-300': $purple-300,
-  'purple-400': $purple-400,
-  'purple-500': $purple-500,
-  'purple-600': $purple-600,
-  'purple-700': $purple-700,
-  'purple-800': $purple-800,
-  'purple-900': $purple-900,
+// Visibility
+.v-0 {
+}
+.v-1 {
+}
 
-  'pink-50': $pink-50,
-  'pink-100': $pink-100,
-  'pink-200': $pink-200,
-  'pink-300': $pink-300,
-  'pink-400': $pink-400,
-  'pink-500': $pink-500,
-  'pink-600': $pink-600,
-  'pink-700': $pink-700,
-  'pink-800': $pink-800,
-  'pink-900': $pink-900,
+// Z-index
+.z-0 {
+}
+.z-1 {
+}
 
-  'red-50': $red-50,
-  'red-100': $red-100,
-  'red-200': $red-200,
-  'red-300': $red-300,
-  'red-400': $red-400,
-  'red-500': $red-500,
-  'red-600': $red-600,
-  'red-700': $red-700,
-  'red-800': $red-800,
-  'red-900': $red-900,
+// Width
+.w-0 {
+}
+.w-1 {
+}
 
-  'orange-50': $orange-50,
-  'orange-100': $orange-100,
-  'orange-200': $orange-200,
-  'orange-300': $orange-300,
-  'orange-400': $orange-400,
-  'orange-500': $orange-500,
-  'orange-600': $orange-600,
-  'orange-700': $orange-700,
-  'orange-800': $orange-800,
-  'orange-900': $orange-900,
+// Height
+.h-0 {
+}
+.h-1 {
+}
 
-  'yellow-50': $yellow-50,
-  'yellow-100': $yellow-100,
-  'yellow-200': $yellow-200,
-  'yellow-300': $yellow-300,
-  'yellow-400': $yellow-400,
-  'yellow-500': $yellow-500,
-  'yellow-600': $yellow-600,
-  'yellow-700': $yellow-700,
-  'yellow-800': $yellow-800,
-  'yellow-900': $yellow-900,
+// Max-width
+// Max-height
+// Min-width
+// Min-height
 
-  'lime-50': $lime-50,
-  'lime-100': $lime-100,
-  'lime-200': $lime-200,
-  'lime-300': $lime-300,
-  'lime-400': $lime-400,
-  'lime-500': $lime-500,
-  'lime-600': $lime-600,
-  'lime-700': $lime-700,
-  'lime-800': $lime-800,
-  'lime-900': $lime-900,
+// Flex
+.fl-0 {
+}
+.fl-1 {
+}
 
-  'green-50': $green-50,
-  'green-100': $green-100,
-  'green-200': $green-200,
-  'green-300': $green-300,
-  'green-400': $green-400,
-  'green-500': $green-500,
-  'green-600': $green-600,
-  'green-700': $green-700,
-  'green-800': $green-800,
-  'green-900': $green-900,
+// Flex-grow
+// Flex-shrink
+// Flex-basis
+// Flex-direction
+// Flex-wrap
+// Flex-flow
+// Justify-content
 
-  'teal-50': $teal-50,
-  'teal-100': $teal-100,
-  'teal-200': $teal-200,
-  'teal-300': $teal-300,
-  'teal-400': $teal-400,
-  'teal-500': $teal-500,
-  'teal-600': $teal-600,
-  'teal-700': $teal-700,
-  'teal-800': $teal-800,
-  'teal-900': $teal-900,
+// Table
+.t-0 {
+}
+.t-1 {
+}
 
-  'cyan-50': $cyan-50,
-  'cyan-100': $cyan-100,
-  'cyan-200': $cyan-200,
-  'cyan-300': $cyan-300,
-  'cyan-400': $cyan-400,
-  'cyan-500': $cyan-500,
-  'cyan-600': $cyan-600,
-  'cyan-700': $cyan-700,
-  'cyan-800': $cyan-800,
-  'cyan-900': $cyan-900,
+// Table-layout
+// Caption-side
 
-  'blue-50': $blue-50,
-  'blue-100': $blue-100,
-  'blue-200': $blue-200,
-  'blue-300': $blue-300,
-  'blue-400': $blue-400,
-  'blue-500': $blue-500,
-  'blue-600': $blue-600,
-  'blue-700': $blue-700,
-  'blue-800': $blue-800,
-  'blue-900': $blue-900,
-);
+// List
+.l-0 {
+}
+.l-1 {
+}
+
+// List-style
+// List-style-type
+
+// Cursor
+
+// Button
+$buttonPadding: $padding-2;
+$buttonColor: $color-1;

@@ -1,0 +1,11 @@
+// Badge
+
+// ------------------------------
+
+.badge {
+  display: $display-inline-block;
+
+  &.sm {
+    font-size: $font-size-0;
+  }
+}
