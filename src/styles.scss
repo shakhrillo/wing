@@ -1,4 +1,6 @@
-@import 'variables';
+@import "variables";
+
+@import "./input/input";
 
 a {
   color: $indigo-100;
