@@ -1,0 +1,22 @@
+@import "variables";
+
+.input {
+  padding: $p-2;
+  margin-top: $mg-2;
+  margin-bottom: $mg-1;
+  display: $d-block;
+  color: $black-100;
+  font-size: $fs-4;
+  border: 1px solid $black-100;
+  border-radius: $rounded;
+  outline: $outline-none;
+  transition: all 0.2s linear;
+
+  &:focus {
+    color: $blue-500;
+    background-color: $white;
+    border-color: #86b7fe;
+    outline: $outline-none;
+    box-shadow: 0 0 0 0.25rem $input-box-shadow;
+  }
+}

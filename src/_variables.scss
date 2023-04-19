@@ -19,6 +19,8 @@ $success-900: #16c000;
 $success-500: #7af769;
 $success-100: #b1fda7;
 
+$input-box-shadow: rgba(13, 110, 253, 0.25);
+
 // Font
 $font-0: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -33,6 +35,8 @@ $p-6: 24px;
 
 // Margin
 $m-0: 0;
+$mg-1: 8px;
+$mg-2: 16px;
 // .mg-0{}
 // .mg-1{}
 // .mg-2{}
@@ -42,6 +46,14 @@ $d-inline: inline;
 $d-block: block;
 $d-flex: flex;
 $d-inline-block: inline-block;
+
+// Height
+$height-0: 0%;
+$height-50: 50%;
+$height-100: 100%;
+
+// Outline
+$outline-none: none;
 
 // Borders
 $border-0: 0px;
@@ -161,15 +173,16 @@ $bg-green-100: #b1fda7;
 
 // Width
 .w-25 {
-    width: 25%;
+  width: 25%;
 }
 .w-50 {
-    width: 50%;
+  width: 50%;
 }
 .w-75 {
-    width: 75%;
+  width: 75%;
 }
 .w-100 {
+  width: 100%;
     width: 100%;
 }
 
