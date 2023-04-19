@@ -1,0 +1,25 @@
+.justify {
+    text-align: justify !important;
+}
+
+.nowrap {
+    white-space: nowrap !important;
+}
+
+
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+.uppercase {
+    text-transform: uppercase !important;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.fw-light {font-weight: $font-weight-light}
+.fw-normal {font-weight: $font-weight-normal;}
+.fw-bold {font-weight: $font-weight-bold;}
+.fw-italic {font-style: italic;}

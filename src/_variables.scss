@@ -37,6 +37,11 @@ $m-0: 0;
 // .mg-1{}
 // .mg-2{}
 
+// Font weight
+$font-weight-light: 300 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 700 !default;
+
 // Font size
 $fs-2: 8px;
 $fs-3: 12px;
@@ -96,10 +101,6 @@ $bg-green-100: #b1fda7;
 }
 
 // Display
-.d-0 {
-}
-.d-1 {
-}
 
 // Position
 .p-0 {
@@ -136,9 +137,18 @@ $bg-green-100: #b1fda7;
 }
 
 // Width
-.w-0 {
+.w-25 {
+    width: 25%;
 }
-.w-1 {
+.w-50 {
+    width: 50%;
+}
+.w-75 {
+    width: 75%;
+}
+.w-100 {
+    width: 100%;
+    
 }
 
 // Height
