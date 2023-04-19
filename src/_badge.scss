@@ -3,13 +3,36 @@
 // Badge
 
 .badge {
-  display: $d-inline;
+  display: $d-inline-block;
   color: $white;
-  background-color: $black-900;
-  padding: $p-2;
+  background-color: $gray-900;
+  padding: $p-2 $p-4;
   border-radius: $border-1;
+  font-size: $fs-4;
 
-  // &.sm {
-  //   // font-size: $font-size-0;
-  // }
+  &-sm {
+    font-size: $fs-3;
+  }
+  &-md {
+    font-size: $fs-4;
+  }
+  &-lg {
+    font-size: $fs-6;
+  }
+  &-red {
+    background-color: $red-500;
+    color: $white;
+  }
+  &-blue {
+    background-color: $blue-100;
+    color: $black-500;
+  }
+  &-yellow {
+    background-color: $yellow-500;
+    color: $black-500;
+  }
+  &-success {
+    background-color: $success-900;
+    color: $white;
+  }
 }
