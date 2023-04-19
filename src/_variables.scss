@@ -15,9 +15,9 @@ $gray-100: #f0f0f0;
 $yellow-900: #e7eb00;
 $yellow-500: #f3f577;
 $yellow-100: #f5f7a9;
-$green-900: #1cf300;
-$green-500: #7af769;
-$green-100: #b1fda7;
+$success-900: #16c000;
+$success-500: #7af769;
+$success-100: #b1fda7;
 
 // Font
 $font-0: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -37,24 +37,21 @@ $m-0: 0;
 // .mg-1{}
 // .mg-2{}
 
-<<<<<<< HEAD
 // Display
 $d-inline: inline;
 $d-block: block;
 $d-flex: flex;
-$d-inline-block: block;
+$d-inline-block: inline-block;
 
 // Borders
 $border-0: 0px;
 $border-1: 4px;
 $border-2: 8px;
 $border-3: 16px;
-=======
 // Font weight
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
 $font-weight-bold: 700 !default;
->>>>>>> 8be51f23f67ffe585e46fdc0ea93eed9a3ea57c2
 
 // Font size
 $fs-2: 8px;
@@ -115,21 +112,18 @@ $bg-green-100: #b1fda7;
 }
 
 // Display
-<<<<<<< HEAD
 .d-flex {
-  display: flex;
+    display: flex;
 }
 .d-inline {
-  display: inline;
+    display: inline;
 }
 .d-inline-block {
-  display: inline-block;
+    display: inline-block;
 }
 .d-block {
-  display: block;
+    display: block;
 }
-=======
->>>>>>> 8be51f23f67ffe585e46fdc0ea93eed9a3ea57c2
 
 // Position
 .p-0 {
@@ -177,7 +171,6 @@ $bg-green-100: #b1fda7;
 }
 .w-100 {
     width: 100%;
-    
 }
 
 // Height
