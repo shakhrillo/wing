@@ -4,12 +4,18 @@ $color-1: #fff;
 $color-2: #f00;
 
 // Font
-$font-0: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-0: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+// Font Size
+// $fs-1:;
 
 // Padding
 $padding-0: 0;
-$padding-1: 1rem;
-$padding-2: 2rem;
+$padding-1: 4px;
+$padding-2: 8px;
+$padding-3: 16px;
+$padding-4: 24px;
+$padding-5: 32px;
 // .pd-0{}
 // .pd-1{}
 // .pd-2{}
@@ -21,6 +27,18 @@ $margin-0: 0;
 // .mg-0{}
 // .mg-1{}
 // .mg-2{}
+
+// Display
+$d-inline: inline;
+$d-block: block;
+$d-flex: flex;
+$d-inline-block: block;
+
+// Borders
+$border-0: 0px;
+$border-1: 4px;
+$border-2: 8px;
+$border-3: 16px;
 
 // Font size
 .fs-0 {
@@ -71,9 +89,17 @@ $margin-0: 0;
 }
 
 // Display
-.d-0 {
+.d-flex {
+  display: flex;
 }
-.d-1 {
+.d-inline {
+  display: inline;
+}
+.d-inline-block {
+  display: inline-block;
+}
+.d-block {
+  display: block;
 }
 
 // Position
@@ -162,5 +188,5 @@ $margin-0: 0;
 // Cursor
 
 // Button
-$buttonPadding: $padding-2;
+$buttonPadding: $padding-4;
 $buttonColor: $color-1;
