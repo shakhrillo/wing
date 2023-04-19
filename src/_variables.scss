@@ -60,7 +60,6 @@ $border-0: 0px;
 $border-1: 4px;
 $border-2: 8px;
 $border-3: 16px;
-
 // Font weight
 $font-weight-light: 300 !default;
 $font-weight-normal: 400 !default;
@@ -126,16 +125,16 @@ $bg-green-100: #b1fda7;
 
 // Display
 .d-flex {
-  display: flex;
+    display: flex;
 }
 .d-inline {
-  display: inline;
+    display: inline;
 }
 .d-inline-block {
-  display: inline-block;
+    display: inline-block;
 }
 .d-block {
-  display: block;
+    display: block;
 }
 
 // Position
@@ -184,6 +183,7 @@ $bg-green-100: #b1fda7;
 }
 .w-100 {
   width: 100%;
+    width: 100%;
 }
 
 // Height
