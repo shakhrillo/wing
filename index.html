@@ -8,9 +8,88 @@
     <link rel="stylesheet" href="src/styles.scss" />
   </head>
   <body>
-    <a href="">Wing Co.</a>
-    <div>
-      Wing Co.
+    <h4>Wing Co.</h4>
+
+    <div class="input-container">
+      <input type="text" class="input" placeholder="Text input" />
+      <input type="email" class="input" placeholder="Text Email" />
+      <input type="password" class="input" placeholder="Text Password" />
+      <textarea class="input" placeholder="Textarea"></textarea>
+    </div>
+    <div class="select-box-container">
+      <select class="select">
+        <option selected>Open this select menu</option>
+        <option value="1">Option #1</option>
+        <option value="2">Option #2</option>
+        <option value="3">Option #3</option>
+        <option value="4">Option #4</option>
+        <option value="5">Option #5</option>
+      </select>
+    </div>
+    <div class="checkbox-container">
+      <label class="label" for="option1">
+        <input
+          type="checkbox"
+          id="option1"
+          name="option1"
+          value="option1"
+          class="checkbox"
+        />
+        Option 1 </label
+      ><br />
+      <label class="label" for="option2"
+        ><input
+          type="checkbox"
+          id="option2"
+          name="option2"
+          value="option2"
+          class="checkbox"
+        />
+        Option 2 </label
+      ><br />
+      <label class="label" for="option3">
+        <input
+          type="checkbox"
+          id="option3"
+          name="option3"
+          value="option3"
+          class="checkbox"
+          disabled
+        />
+        Option 3 </label
+      ><br /><br />
+    </div>
+    <div class="checkbox-container--inline">
+      <label class="label" for="option-i-1">
+        <input
+          type="checkbox"
+          id="option1"
+          name="option1"
+          value="option-i-1"
+          class="checkbox"
+        />
+        Option 1 </label
+      ><br />
+      <label class="label" for="option-i-2">
+        <input
+          type="checkbox"
+          id="option2"
+          name="option-i-2"
+          value="option2"
+          class="checkbox"
+        />Option 2 </label
+      ><br />
+      <label class="label" for="option-i-3">
+        <input
+          type="checkbox"
+          id="option3"
+          name="option-i-3"
+          value="option3"
+          class="checkbox"
+          disabled
+        />
+        Option 3 </label
+      ><br /><br />
     </div>
   </body>
 </html>
