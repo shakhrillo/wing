@@ -1,0 +1,29 @@
+/**
+    * WNC button
+    * --------------------------------------------------
+    */
+
+@custom-selector :--wnc-buttons
+  .wnc-button,
+  .wnc-button-primary,
+  .wnc-button-secondary,
+  .wnc-button-success,
+  .wnc-button-danger,
+  .wnc-button-warning,
+  .wnc-button-info,
+  .wnc-button-light,
+  .wnc-button-dark,
+  .wnc-button-link;
+
+.wnc-button,
+.wnc-button :--wnc-buttons {
+  display: block;
+  width: 100%;
+  padding: var(--p-5) var(--p-10);
+  font-family: var(--font-family);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  color: var(--color-black);
+  border: var(--border-width) solid var(--color-gray-light);
+}

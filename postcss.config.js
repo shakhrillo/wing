@@ -3,9 +3,13 @@ import postcssImport from 'postcss-import';
 import postcssPresetEnv from 'postcss-preset-env';
 import pxtorem from 'postcss-pxtorem';
 import postcssNested from 'postcss-nested';
+import functions from 'postcss-functions';
 
 export default {
   plugins: [
+    functions({
+      functions: {},
+    }),
     postcssImport({
       path: ['src'],
     }),
