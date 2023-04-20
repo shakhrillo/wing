@@ -1,0 +1,86 @@
+/**
+    * WNC input
+    * --------------------------------------------------
+    */
+
+.wnc-input {
+  display: block;
+  width: 100%;
+  padding: var(--p-5) var(--p-10);
+  font-family: var(--font-family);
+  font-size: var(--font-size-medium);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+  color: var(--color-black);
+  background-color: var(--color-white);
+  border: var(--border-width) solid var(--color-gray-light);
+
+  [type='text'] {
+  }
+
+  [type='password'] {
+  }
+
+  [type='email'] {
+  }
+
+  [type='tel'] {
+  }
+
+  [type='number'] {
+  }
+
+  [type='date'] {
+  }
+
+  [type='time'] {
+  }
+
+  [type='datetime-local'] {
+  }
+
+  [type='month'] {
+  }
+
+  [type='week'] {
+  }
+
+  [type='url'] {
+  }
+
+  [type='search'] {
+  }
+
+  [type='color'] {
+  }
+
+  [type='range'] {
+  }
+
+  [type='file'] {
+  }
+
+  [type='checkbox'] {
+  }
+
+  [type='radio'] {
+  }
+
+  [type='submit'] {
+  }
+
+  [type='reset'] {
+  }
+
+  [type='button'] {
+  }
+
+  [type='image'] {
+  }
+
+  [type='hidden'] {
+  }
+
+  [type='datetime'] {
+  }
+}

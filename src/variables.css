@@ -1,0 +1,60 @@
+/**
+    Variables
+
+    @file       variables.css
+*/
+
+:root {
+  --font-family: Arial, Helvetica, sans-serif;
+  --font-size-large: 20px;
+  --font-size-medium: 16px;
+  --font-size-small: 12px;
+  --font-weight: 400;
+
+  --line-height: 1.5;
+
+  --border-width: 1px;
+  --border-radius: 5px;
+
+  --transition: 0.15s;
+
+  --box-shadow: 5px;
+
+  --bg-position-select: right 10px center;
+
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray: #ccc;
+  --color-gray-dark: #333;
+  --color-gray-light: #eee;
+  --color-primary: #007bff;
+  --color-primary-dark: #0069d9;
+  --color-primary-light: #e2e3e5;
+  --color-success: #28a745;
+  --color-success-dark: #218838;
+  --color-success-light: #d1e7dd;
+  --color-danger: #dc3545;
+  --color-danger-dark: #c82333;
+  --color-danger-light: #f8d7da;
+  --color-warning: #ffc107;
+  --color-warning-dark: #e0a800;
+  --color-warning-light: #fff3cd;
+
+  --width-100: 100%;
+  --display-block: block;
+
+  --padding-large: 30px;
+  --padding-medium: 20px;
+  --padding-small: 10px;
+
+  --margin-large: 30px;
+  --margin-medium: 20px;
+  --margin-small: 10px;
+
+  --p-5: 5px;
+  --p-10: 10px;
+  --p-15: 15px;
+  --p-20: 20px;
+  --p-25: 25px;
+  --p-30: 30px;
+}
