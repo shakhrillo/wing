@@ -1,0 +1,11 @@
+/**
+
+    * @file
+    * This file is used to import all the CSS files.
+*/
+
+@import 'normalize.css';
+
+@import 'variables.css';
+@import 'containers.css';
+@import 'input.css';

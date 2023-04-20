@@ -1,7 +1,37 @@
 import stylint from 'stylelint';
+import postcssImport from 'postcss-import';
+import postcssPresetEnv from 'postcss-preset-env';
+import pxtorem from 'postcss-pxtorem';
+import postcssNested from 'postcss-nested';
+
 export default {
-  syntax: 'postcss-scss',
   plugins: [
+    postcssImport({
+      path: ['src'],
+    }),
+    postcssNested(),
+    pxtorem({
+      rootValue: 16,
+      unitPrecision: 5,
+      propList: [
+        'padding',
+        'margin',
+        'font',
+        'font-size',
+        'line-height',
+        'letter-spacing',
+      ],
+      selectorBlackList: [],
+      replace: true,
+      mediaQuery: false,
+      minPixelValue: 0,
+    }),
+    postcssPresetEnv({
+      stage: 0,
+      features: {
+        'nesting-rules': true,
+      },
+    }),
     stylint({
       configFile: '.stylelintrc.json',
       files: ['src/**/*.css'],
